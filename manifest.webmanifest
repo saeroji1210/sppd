@@ -1,0 +1,16 @@
+{
+  "name": "SIPERDIN — Perjalanan Dinas & Presensi",
+  "short_name": "SIPERDIN",
+  "description": "Administrasi perjalanan dinas dengan presensi lokasi GPS, verifikasi wajah, dan rekap SPPD otomatis.",
+  "lang": "id",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F7FC",
+  "theme_color": "#1F4FD8",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

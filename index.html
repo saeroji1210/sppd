@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SIPERDIN — Perjalanan Dinas & Presensi</title>
+  <meta name="description" content="Administrasi perjalanan dinas: presensi lokasi GPS, verifikasi wajah, waktu server WIB, dan rekap SPPD otomatis.">
+  <meta name="theme-color" content="#1F4FD8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="preconnect" href="https://script.google.com">
+  <link rel="preconnect" href="https://script.googleusercontent.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Terapkan tema tersimpan sebelum render agar tidak berkedip
+    try { var t = localStorage.getItem('siperdin_tema'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div class="splash"><div><div class="brand-logo"><svg class="ic xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><b style="color:#0F1B3D;font:800 18px 'Nunito Sans',system-ui">SIPERDIN</b><p>Memuat aplikasi…</p></div></div>
+  </div>
+  <noscript><p style="padding:24px;font-family:sans-serif">Aplikasi ini membutuhkan JavaScript. Aktifkan JavaScript pada browser Anda.</p></noscript>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/api.js" defer></script>
+  <script src="js/charts.js" defer></script>
+  <script src="js/face.js" defer></script>
+  <script src="js/geo.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/halaman-auth.js" defer></script>
+  <script src="js/halaman-pegawai.js" defer></script>
+  <script src="js/halaman-admin.js" defer></script>
+</body>
+</html>
